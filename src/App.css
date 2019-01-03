@@ -30,3 +30,17 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+	position: relative;
+}
+
+.bg {
+	position:relative;
+	z-index: -3 !important;
+}
+
+.fg {
+position:absolute;
+z-index:1;
+}
